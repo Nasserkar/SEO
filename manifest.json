@@ -1,0 +1,44 @@
+{
+  "short_name": "Stomz",
+  "name": "Stomz",
+  "start_url": "./index.html",
+  "id": "?homescreen=1",
+  "display_override": ["window-controls-overlay"],
+  "display": "standalone",
+  "description": "Advertise your innovative gadgets",
+  "theme_color": "#6a5acd",
+  "background_color": "#e0ebff",
+  "orientation": "any",
+  "scope": ".",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "./assets/images/logo.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/images/splash.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./assets/images/splash.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Homescreen of Awesome App"
+    },
+    {
+      "src": "./assets/images/splash.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "List of Awesome Resources available in Awesome App"
+    }
+  ]
+}
