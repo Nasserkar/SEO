@@ -23,7 +23,7 @@
     <link rel="icon" type="image/svg+xml" href="./assets/icons/light-favicon.svg" media="(prefers-color-scheme:light)">
     <link rel="manifest" href="./manifest.json" type="text/json">
     <link rel="stylesheet" href="./style.css" type="text/css">
-    <script async type="text/javascript" src="./script.js"></script>
+    <script defer type="text/javascript" src="./script.js"></script>
     <title>Stomz</title>
   </head>
   <body>
@@ -34,7 +34,7 @@
       </picture>
       <h1 class="large">Hello</h1>
     </main>
-    <script async type="text/javascript">
+    <script defer type="text/javascript">
       "serviceWorker"in navigator&&window.addEventListener("load",()=>{navigator.serviceWorker.register("./sw.js").then(e=>console.log("success at: "+e.scope)).catch(e=>console.log("failure at : "+e))});
     </script>
   </body>
